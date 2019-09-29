@@ -14,9 +14,9 @@ use GuzzleHttp\Exception\GuzzleException;
 
 final class YoutubeApi
 {
-    public const REFRESH_TOKEN = '1/Ea_v7pty9p5LOv3pMVEeuz1G84QW01URS5eIy-mnte0Ej7k6vbwk9WkyY8eFLDWm';
-    public const CLIENT_ID = '832977029158-ipvrt2gdnr3ikqlmiil0si34qn6i1t10.apps.googleusercontent.com';
-    public const CLIENT_SECRET = 'n4VaTTpn_Y8bi3bCxZp5irg1';
+    public const REFRESH_TOKEN = null;
+    public const CLIENT_ID = null;
+    public const CLIENT_SECRET = null;
     private const FILENAME_TOKEN = 'token.json';
     public const REPEATER = 3;
     public static $repeat = 0;
